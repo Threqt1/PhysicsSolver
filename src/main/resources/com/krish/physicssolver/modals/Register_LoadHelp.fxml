@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="233.0" prefWidth="385.0" spacing="10.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" styleClass="bold" text="HOW TO LOAD EQUATIONS FROM FILES" textAlignment="CENTER" VBox.vgrow="ALWAYS">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" text="To load equations from a file, open a file with ONE equation on each line of the file, seperated by new lines. &#10;Each equation should be valid (the parser will skip over invalid equations). &#10;A valid example file is shown below:" textAlignment="CENTER" wrapText="true" />
+      <Separator prefWidth="200.0" />
+      <Label text="vf=v0+at&#10;x=x0+v0*t+(1/2)*a*t^2&#10;vf^2=v0^2+2*a*x" textAlignment="CENTER" />
+   </children>
+   <padding>
+      <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+   </padding>
+</VBox>

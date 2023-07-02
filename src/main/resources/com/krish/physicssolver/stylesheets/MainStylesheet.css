@@ -1,0 +1,15 @@
+@font-face {
+    src: url("../fonts/JBM_Regular.ttf");
+}
+
+@font-face {
+    src: url("../fonts/JBM_Bold.ttf");
+}
+
+.text {
+    -fx-font-family: 'JetBrains Mono NL';
+}
+
+.bold {
+    -fx-font-weight: 700;
+}
